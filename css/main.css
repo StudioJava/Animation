@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Sonsie+One');
+/* font-family: 'Sonsie One', cursive; */
+@import url('https://fonts.googleapis.com/css?family=Codystar');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+#p-1{
+    /* [disabled]vertical-align: 11px; */
+    line-height: 41px;
+}
+.section-1{
+	margin-top: 50px;
+}
+.font-1{
+	font-family: 'Sonsie One', cursive;
+}
+.font-2{
+	font-family: 'Codystar', cursive;
+
+}
+.font-3{
+	font-family: 'Permanent Marker', cursive;
+	letter-spacing: .2rem;
+	color: #FA6800;
+
+}
+body {
+	background-color: #18162E;
+	
+}
+h2, h3 {
+	
+	font-size: 1.2rem;
+	
+}
+hr {
+       border-top: 1px solid#FBFBFB !important;
+       margin-bottom:5px !important; 
+       margin-top:5px !important;
+   }
+a {
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	text-decoration: none;
+	letter-spacing: .3rem;
+	
+}
+a:active{
+	letter-spacing: .3rem;
+}
+.card-header{
+	background-color: #FA6800;
+	
+}
+.fx-1{
+    z-index: 1;
+    opacity: 1;
+    position: relative;
+    top: -106px;
+    left: 27px;
+	letter-spacing: .8rem;
+}
+.fx-2{
+    z-index: 1;
+    position: relative;
+    top: -140px;
+    left: 0px;
+}
+.fx-3{
+    z-index: 1;
+    position: relative;
+    top: -100px;
+    left: -70px;
+}
+.fx-4{
+    z-index: 1;
+    position: relative;
+    top: -62px;
+    left: -170px;
+}
+.fx-5{
+	opacity: .7;
+	font-size: 10px;
+}
+
+/* breakpoints
+--breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+*/
+@media (min-width: 600px) {
+ .section-1 {
+    display: none;
+  }
+}
+
+/*animation*/
+.project {
+	opacity: 0;
+	/*transform: translateY(100px);*/
+	
+	transition: all 1s linear;
+	
+}
+.project.fade-in {
+	opacity: 1;
+	transform: translateX(0);
+	/*transform: translateY(0);*/
+}
