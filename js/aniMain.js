@@ -1,5 +1,6 @@
 // JavaScript Document
-$(document).ready(function(){
+ AOS.init();
+/*$(document).ready(function(){
 
 	// Init ScrollMagic
 	var controller = new ScrollMagic.Controller();
@@ -15,3 +16,22 @@ $(document).ready(function(){
 });
 
 TweenMax.from("#logo", 1, {y:20,delay:2,opacity:0});
+*/
+
+  /*$(function() {
+                
+                var documentEl = $(document),
+                    fadeElem = $('.fade-scroll');
+                
+                
+                documentEl.on('scroll', function() {
+                    var currScrollPos = documentEl.scrollTop();
+                    
+                    fadeElem.each(function() {
+                        var $this = $(this),
+                            elemOffsetTop = $this.offset().top;
+                        if (currScrollPos > elemOffsetTop) $this.css('opacity', 1 - (currScrollPos-elemOffsetTop)/400);
+                    }); 
+                });
+                
+            });*/

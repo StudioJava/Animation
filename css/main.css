@@ -4,6 +4,10 @@
 /* font-family: 'Sonsie One', cursive; */
 @import url('https://fonts.googleapis.com/css?family=Codystar');
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+html,body{
+	position: relative;
+	
+}
 #p-1{
     /* [disabled]vertical-align: 11px; */
     line-height: 41px;
