@@ -1,8 +1,14 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body{
+	
+}
 h3{
 	height: 300px;
 	width: 300px;
 	background-color:  #1da4e2;
+}
+.position {
+	overflow: hidden;
 }
